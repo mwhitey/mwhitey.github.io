@@ -1,7 +1,7 @@
 ---
-layout: cast
-title: "Podcast #25 - An Interview with CS"
-date: 2017-11-10
+layout: post
+title: "My First Post"
+date: 2017-11-26
 ---
 
-Check out the podcast.
+Here is a test of a blog post on this site!
