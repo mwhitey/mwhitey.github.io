@@ -5,7 +5,7 @@ title: Podcasts
 	<h1>{{ page.title }}</h1>
 	<ul class="casts">
 
-	  {% for cast  in site.casts %}
-	    <li><span>{{ cast.date | date_to_string }}</span> » <a href="{{ cast.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% for cast in site.casts %}
+	    <li><span>{{ cast.date | date_to_string }}</span> » <a href="{{ cast.url }}" title="{{ cast.title }}">{{ cast.title }}</a></li>
 	  {% endfor %}
 	</ul>
